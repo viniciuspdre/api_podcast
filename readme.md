@@ -19,10 +19,10 @@ O projeto foi organizado seguindo a divisão por camadas dentro da pasta `src/`:
 ## 📦 Instalação
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/podcast-api.git
+git clone https://github.com/viniciuspdre/api_podcast.git
 
 # Entre no diretório
-cd podcast-api
+cd api_podcast
 
 # Instale as dependências
 npm install
@@ -79,7 +79,4 @@ Os testes foram realizados utilizando **Thunder Client** (extensão do VS Code),
 
 ## 📝 Licença
 Este projeto é de código aberto e pode ser utilizado conforme necessário.
-
----
-🚀 Desenvolvido por [Seu Nome]
 
