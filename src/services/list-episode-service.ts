@@ -1,12 +1,8 @@
+import { repoPodcast } from "../repositories/podcasts-repository"
 
 
 export const serviceListEpisodes = async () => {
-    const data = {
-        podcastName: "Flow Podcast",
-        episode: "CBUM - Flow #319",
-        videoId: "pQSuQmUfS30",
-        category: ["bodybuilder", "fitness"]
-    }
+    const data = await repoPodcast()
 
     return data
 }
